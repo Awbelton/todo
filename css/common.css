@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.titlebg {
+    background-color:black;
+    width:100%;
+    height:70px;
+    border-bottom: 2px dashed white;
+}
+
+.title {
+    font-family: 'Ubuntu';
+    font-size:30px;
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+}
+
+.task-amt {
+    color: black;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+#playground {
+	margin-top: 75px;
+}
+
+body {
+    background-image: url("http://www.freelargeimages.com/wp-content/uploads/2015/06/White_Background_01.jpg");
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;
+}
+
+.todoName {
+	font-size: 20px;
+	border-bottom: 1px lightgray solid;
+	list-style-type: none;
+	margin-left:-35px;
+    padding-top:3px;
+}
+
+#todoAdd {
+	margin-left: 40px;
+}
+
+#todoField {
+	padding-left: 5px;
+	font-size: 20px;
+	margin: 20px;
+    color: black;
+}
+
+.todoTask {
+	margin-bottom: 20px;
+	width: 60%;
+	border-radius:3px;
+	height:35px;
+}
+
+.todoDate {
+	margin-bottom: 20px;
+    margin-left: 40px;
+	width: 20%;
+	border-radius:3px;
+	height:35px;
+}
+
+.del-todo {
+	text-align:right;
+	float:right;
+	margin-top: 15px;
+	font-size: 16px;
+} a.del-todo {
+	color: black;
+} a:hover.del-todo {
+	text-decoration: none;
+	color:red;
+}
+
+.alert {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.alert2 {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+    border-color: #bce8f1 !important;
+}
+
+.alert-info2 {
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+    border-color: #bce8f1 !important;
+    border-radius: 5px;
+	padding:5px;
+    width: 85%;
+}
+
+.alert-danger {
+	border-radius: 5px;
+	padding:5px;
+    width:85%;
+}
+
+li.todoName:hover {
+    background-color:#F0F0F0;
+    border-radius:3px;
+}
+
+li.todoName:last-child {
+    border-bottom: 1px solid white;
+}
+
+.contain-list {
+    border-radius:5px;
+    border:1px dotted #F0F0F0;
+    font-family: "Ubuntu";
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.due {
+    margin-left: 2%;
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    color: #9E9E9E;
+}
+
+ .css-input { 
+	padding:7px; 
+	font-size:21px; 
+	text-align:center; 
+	border-width:4px; 
+	border-radius:10px; 
+	border-style:double; 
+	background-color:#ffffff; 
+	color:#404040; 
+	box-shadow: 2px 2px 17px 0px rgba(42,42,42,.58); 
+	font-weight:bold; 
+	font-style:none; 
+	font-family:sans-serif;  
+	} .css-input:focus { 
+		outline:none; 
+        border-color:#088f38; 
+		} 
+.add-btn {
+    margin-left: 60px;
+    margin-top: -2px;
+    border-radius:10px;
+    padding: 3px;
+    border-style:double; 
+    border-width:1px; 
+    background-color: white;
+    width:10%;
+    font-size: 20px;
+    color: black;
+} .add-btn:focus {
+    outline: none;
+} .add-btn:hover {
+    border: 1px solid none;
+    color: #088f38;
+}
